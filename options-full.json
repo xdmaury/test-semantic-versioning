@@ -6,7 +6,6 @@
     {
       "trigger": "pull-request",
       "destBranch": "main",
-      "prefix": "-dev",
       "bump": "build"
     },
     {
