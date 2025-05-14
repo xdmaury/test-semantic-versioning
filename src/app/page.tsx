@@ -6,7 +6,9 @@ export default function Home() {
       <p>
         This is a simple example of a Next.js app with TypeScript.
       </p>  
-      <button>Test</button>
+      <p>
+        It uses the latest version of Next.js and TypeScript.
+      </p>
     </div>
   );
 }
