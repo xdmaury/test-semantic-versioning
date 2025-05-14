@@ -6,7 +6,7 @@
     {
       "trigger": "pull-request",
       "destBranch":"main",
-      "suffix":"-beta",
+      "suffix":"-dev",
       "bump": "build"
     },
     {
