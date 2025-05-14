@@ -1,21 +1,19 @@
 {
-  "scheme": "semantic",
+  "scheme": "org_semantic",
   "versionFile": "./package.json",
   "files": ["./package-lock.json"],
   "rules": [
     {
       "trigger": "pull-request",
-      "destBranch":"main",
-      "suffix":"-dev",
+      "destBranch": "main",
+      "suffix": "-dev",
       "bump": "build"
     },
     {
       "trigger": "pull-request",
       "branch": "release",
       "bump": "minor",
-      "reset": [
-        "build"
-      ]
+      "reset": "build"
     }
   ]
 }
