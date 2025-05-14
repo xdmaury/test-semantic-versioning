@@ -13,7 +13,6 @@
       "trigger": "pull-request",
       "branch": "release",
       "bump": "minor",
-      "tag":true,
       "reset": [
         "build"
       ]
