@@ -1,0 +1,15 @@
+name: Manage version
+on: [push, pull_request]
+jobs:
+  bump-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4      
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '18'      
+      - name: Version Bumper
+        uses: michmich112/version-bumper@master
+        with:
+          options-file: './options-full.json'
+          github-token: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,26 @@
+{
+  "scheme": "semantic",
+  "versionFile": "./package.json",
+  "files": ["./package-lock.json"],
+  "rules": [
+    {
+      "trigger": "commit",
+      "bump": "build"
+    },
+    {
+      "trigger": "pull-request",
+      "bump": "minor",
+      "branch": "main",
+      "reset": "build"
+    },
+    {
+      "trigger": "pull-request",
+      "bump": "major",
+      "branch": "release",
+      "reset": [
+        "minor",
+        "build"
+      ]
+    }
+  ]
+}
