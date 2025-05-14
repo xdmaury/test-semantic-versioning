@@ -6,12 +6,12 @@
     {
       "trigger": "pull-request",
       "destBranch": "main",
-      "suffix": "-dev",
+      "prefix": "-dev",
       "bump": "build"
     },
     {
       "trigger": "pull-request",
-      "branch": "release",
+      "destBranch": "release",
       "bump": "minor",
       "reset": "build"
     }
