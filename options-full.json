@@ -15,7 +15,7 @@
       "tag":true
     },
     {
-      "trigger": "pull-request",
+      "trigger": "manual",
       "bump": "major",
       "branch": "release",
       "reset": [
