@@ -5,9 +5,9 @@
   "rules": [
     {
       "trigger": "pull-request",
+      "destBranch":"main",
       "suffix":"-beta",
       "bump": "minor",
-      "branch": "main",
       "tag":true
     },
     {
