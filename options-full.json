@@ -5,12 +5,12 @@
   "rules": [
     {
       "trigger": "commit",
+      "suffix":"-beta",
       "bump": "build"
     },
     {
       "trigger": "pull-request",
       "destBranch":"main",
-      "suffix":"-beta",
       "bump": "minor",
       "tag":true
     },
