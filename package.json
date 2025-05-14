@@ -1,6 +1,6 @@
 {
   "name": "test-semantic-versioning",
-  "version": "0.3.14",
+  "version": "0.3.15-dev",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
