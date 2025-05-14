@@ -9,8 +9,8 @@
       "bump": "build"
     },
     {
-      "trigger": "pull-request",
-      "destBranch": "release",
+      "trigger":"commit",
+      "branch":"release",
       "bump": "minor",
       "reset": "build"
     }
