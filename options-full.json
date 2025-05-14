@@ -4,22 +4,18 @@
   "files": ["./package-lock.json"],
   "rules": [
     {
-      "trigger": "commit",
-      "bump": "build"
-    },
-    {
       "trigger": "pull-request",
+      "suffix":"-beta",
       "bump": "minor",
       "branch": "main",
-      "reset": "build"
+      "tag":true
     },
     {
       "trigger": "pull-request",
       "bump": "major",
       "branch": "release",
       "reset": [
-        "minor",
-        "build"
+        "minor"
       ]
     }
   ]
