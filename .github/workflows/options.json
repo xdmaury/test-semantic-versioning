@@ -3,7 +3,7 @@
   "versionFile": "./package.json",
   "files": ["./package-lock.json"],
   "rules": [
-     {
+    {
       "trigger": "commit",
       "branch": "main",
       "suffix": "-beta"
