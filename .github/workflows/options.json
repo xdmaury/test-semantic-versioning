@@ -6,11 +6,12 @@
     {
       "trigger": "pull-request",
       "destBranch": "main",
+      "suffix": "-beta",
       "bump": "build"
     },
     {
-      "trigger":"commit",
-      "branch":"release",
+      "trigger": "pull-request",
+      "destBranch": "release",
       "bump": "minor",
       "reset": "build"
     }
