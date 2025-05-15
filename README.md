@@ -1,6 +1,7 @@
 ## Versioning Flow
 
-This project uses automated semantic versioning based on Git triggers and target branches, following a defined set of rules.
+This project uses automated semantic versioning powered by the GitHub Action:
+[linkmichmich112/version-bumper](https://github.com/michmich112/version-bumper)
 
 Versioning Configuration:
 ```JSON
